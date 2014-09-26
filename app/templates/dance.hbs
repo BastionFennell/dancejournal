@@ -1,0 +1,13 @@
+<h2>{{name}}</h2>
+<p>{{description}}</p>
+<h3> Moves </h3>
+<div class="row">
+  <div class="col-md-4">
+    {{#each move in moves}}
+      <div class="move">{{#link-to "dance.move" move.id}} {{move.name}} {{/link-to}} </div>
+    {{/each}}
+  </div>
+  <div class="col-md-8">
+    {{outlet}}
+  </div>
+</div>

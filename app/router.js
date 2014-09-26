@@ -6,6 +6,9 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.resource('dance', {path: "dance/:id"}, function(){
+    this.route('move', {path: ":move_id"});
+  });
 });
 
 export default Router;

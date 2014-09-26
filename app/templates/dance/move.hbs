@@ -1,0 +1,8 @@
+<div class="row">
+  {{name}}
+</div>
+<div class="row">
+  {{#if video}}
+  <iframe width="80%" height="400" {{bind-attr src=videoSrc}} frameborder="0" allowfullscreen></iframe>
+  {{/if}}
+</div>
