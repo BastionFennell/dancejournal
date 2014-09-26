@@ -5,9 +5,9 @@
   <p>{{notes}}</p>
 {{/if}}
 
-<h3> Moves </h3>
 <div class="row">
   <div class="col-md-4">
+    <h3> Moves </h3>
     {{#each move in moves}}
       <div class="move">{{#link-to "dance.move" move.id}} {{move.name}} {{/link-to}} </div>
     {{/each}}
