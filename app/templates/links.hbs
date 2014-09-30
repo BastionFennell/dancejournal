@@ -1,0 +1,11 @@
+<div class="row">
+  <h3> Helpful Links </h3>
+  <p> Here are some helpful links I've gathered along my journey, maybe they'll be helpful for you too. </p>
+</div>
+
+{{#each link in links}}
+<div class="row">
+  <a {{bind-attr href=link.src}} target="_blank"><h4>{{link.name}}</h4></a>
+  <p>{{link.description}}</p>
+</div>
+{{/each}}
