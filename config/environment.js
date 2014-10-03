@@ -4,8 +4,7 @@ module.exports = function(environment) {
   var ENV = {
     modulePrefix: 'app',
     environment: environment,
-    baseURL: '/',
-    locationType: 'auto',
+    baseURL: '~/bastionf/dancejournal/',
     EmberENV: {
       FEATURES: {
         // Here you can enable experimental features on an ember canary build
@@ -22,6 +21,7 @@ module.exports = function(environment) {
   if (environment === 'development') {
     // ENV.APP.LOG_RESOLVER = true;
     ENV.APP.LOG_ACTIVE_GENERATION = true;
+    ENV.baseURL = '/';
     // ENV.APP.LOG_TRANSITIONS = true;
     // ENV.APP.LOG_TRANSITIONS_INTERNAL = true;
     ENV.APP.LOG_VIEW_LOOKUPS = true;

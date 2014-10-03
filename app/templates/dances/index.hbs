@@ -1,0 +1,104 @@
+<div class="row">
+  <h2> General Dancing Tips </h2>
+</div>
+<div class="row">
+  <div class="col-md-10">
+    <h4>Connection</h4>
+    <p>I'm putting connection first because, in my opinion,
+    it's the <strong>most</strong> important part of any
+    dance, hands down(pun intended). Connection is essentially
+    about feeling your partnerand making it easy to tell where
+    they are and either tell them where you want them to go or
+    listen to where they want you to go. In any dance, the
+    connection should feel springy. The follow should be trying
+    to go one way while the lead is going the other, creating a
+    tension in the middle. Essentially, you want it to be equal
+    and opposite pressure. When you're in an open hand hold
+    position, there should be some tension between your hands, so
+    the follow knows where the lead is trying to take them. In
+    closed, there should be pressure between the leads wrist or
+    forearm and the bottom of the follows shoulder. At first,
+    it's easy to feel like a connection is pulling you one way or
+    another when your a follow rather than just being static, but
+    the key is to just add a little bit of resistance to the lead.
+    This will actually help the lead because it means they'll give
+    you more of a lead for what they want you to do, which will
+    make it clearer. It will also make it easier for the follow
+    to interpret what the lead wants. Moral of the story is,
+    always try to have a good connection when you're dancing,
+    don't just be a pile of noodles.</p>
+    <h4>Frame</h4>
+    <p>Your frame is the shape your body keeps while you're
+    dancing. More specifically, the shape of the upper body and
+    arms. Just like connection, a good frame is all about making
+    it easier for the lead to lead the follow and the follow to
+    follow the lead. A good frame should be nice and wide, your
+    arms should be parallel to the ground, not by your sides
+    (unless you're dancing swing, then one of your arms should be
+    relaxed in closed position). Second, the frame should be wide.
+    If your frame is close and cramped, it will be hard to
+    give and interpret signals. Third, generally, your spine
+    should be perpindicular to your arms. You don't want to be
+    slouched over over leaning one way or the other (unless you're
+    shaping, which you probably won't be as a beginner). Just try
+    to be upright, strong, and confident with your leading, and
+    make your frame convey that message to the follow. These are
+    just general tips, each dance will have their own take on
+    what the frame should look and feel like, but they're all
+    variations on the basics explained here. Basically, the lead
+    should make a good frame, and the follow should fill it.
+    Generally, social dances and swing dances will have a more
+    relaxed frame, while competitive dances will have a more
+    structured and proper frame. Generally, it's okay to err on
+    the side of a proper frame until you know more about what's
+    expected in the dance and whether or not you can relax it
+    some. It's alright to use a proper frame when it could be
+    relaxed, but the reverse isn't always true.</p>
+    <h4>Keeping the Beat</h4>
+    <p>It's easier to keep the beat for some dances than others,
+    but it's more about the songs than anything else. Personally,
+    I'm terribly at keeping the beat in salsa. The trick,
+    apparently is to listen for the cowbell, but I just have so
+    much trouble with it. Generally, the best way to keep the beat
+    and to stay on beat is to just keep dancing. Don't pause or
+    hesitate and keep moving your feet in the basic pattern. As
+    long as you keep dancing, it should help you stay on beat. No
+    matter what, if you stop dancing, you're offbeat and have to
+    reset. Keeping the beat while your dancing is a litte bit more
+    difficult though. The best way to practice that I've found is
+    to listen to the kinds of music you'll be dancing to. If you
+    listen and practice keeping the beat when you're not dancing,
+    it will make it <strong>much</strong> easier to keep the beat
+    when you are dancing. So, listen to music, keep dancing, and
+    have fun! You'll get the hang of it eventually, it just takes
+    practice.</p>
+    <h4>Styling and Technique</h4>
+    <p>When you first start off dancing, it can be really
+    intimidating to see everyone else out on the dance floor
+    looking really fancy and really showing off the character of
+    the dance. Seeing all the arm styling and hip swaying, or the
+    dips and lifts in various dances. It's easy to immediately
+    worry and think 'how do I do that? How do I get my dancing
+    to look like that?' The easy answer is <strong>don't</strong>.
+    When you're just starting off, focus on putting your feet in
+    the right place, doing the moves correctly, and smiling.
+    The best advice I've heard for dancing is that you don't have
+    to be a great dancer, you just need to be a
+    <em>good</em> one. All it takes to be good is exactly what I
+    said. Smile, have fun, lead confidently, follow gracefully,
+    and you'll be good. Once you can do that and have a good
+    number of patterns under your belt, then you can start putting
+    more of a focus on styling. Now, that doesn't mean completely
+    ignore styling when you're starting off, it's alright to add
+    a little flair or cuban motion, just don't do it at the
+    expense of technique.</p>
+  </div>
+  <div class="col-md-2">
+    <h4> Dances </h4>
+    {{#each dance in model}}
+      <div>
+        {{#link-to "dances.dance" dance.id}}{{dance.name}}{{/link-to}}
+      </div>
+    {{/each}}
+  </div>
+</div>
