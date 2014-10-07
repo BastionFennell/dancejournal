@@ -30,6 +30,7 @@ Move.reopenClass({
     {id: "j-tuck-turn", name: "tuck turn"},
     {id: "j-waist-roll", name: "waist roll"},
     {id: "j-throw-away", name: "throw away"},
+    {id: "j-travelling-triples", name: "travelling triples"},
 
   //jitterbug
     {id: "jt-basic", name: "basic"},
@@ -51,9 +52,11 @@ Move.reopenClass({
     {id: "wcs-basket-whip", name: "basic whip"},
     {id: "wcs-closed-whip", name: "closed whip"},
     {id: "wcs-closed-whip-with-turn", name: "closed whip with inside or outside turn"},
+    {id: "wcs-eight-count-sugar-push", name: "eight count sugar push"},
     {id: "wcs-left-side-tuck-turn", name: "left side tuck turn"},
     {id: "wcs-left-side-free-spin", name: "left side free spin"},
     {id: "wcs-sweetheart-swivels", name: "sweetheart swivels"},
+    {id: "wcs-barrel-roll", name: "barrel roll"},
 
   //two step
     {id: "ts-basic", name: "basic", video: "xoscqzFdwB0"},
