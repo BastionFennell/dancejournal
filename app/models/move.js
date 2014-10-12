@@ -77,6 +77,13 @@ Move.reopenClass({
     {id: "iw-chasse-to-whisk", name: "chasse to whisk"},
     {id: "iw-natural-turn", name: "natural turn"},
 
+  //viennese waltz
+    {id: "vw-closed-changes", name: "closed changes"},
+    {id: "vw-natural-turn", name: "natural turn"},
+    {id: "vw-reverse-turn", name: "reverse turn"},
+    {id: "vw-fleckerl", name: "fleckerl"},
+    {id: "vw-reverse-fleckerl", name: "reverse fleckerl"},
+
   //international tango
     {id: "it-basic-walks", name: "basic walks"},
     {id: "it-closed-promenade", name: "closed promenade"},
