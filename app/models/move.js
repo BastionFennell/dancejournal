@@ -76,6 +76,9 @@ Move.reopenClass({
     {id: "iw-closed-changes", name: "closed changes"},
     {id: "iw-chasse-to-whisk", name: "chasse to whisk"},
     {id: "iw-natural-turn", name: "natural turn"},
+    {id: "iw-reverse-turn", name: "reverse turn"},
+    {id: "iw-reverse-turn-outside-partner", name: "reverse turn outside partner"},
+    {id: "iw-hesitation-change", name: "hesitation change"},
 
   //viennese waltz
     {id: "vw-closed-changes", name: "closed changes"},

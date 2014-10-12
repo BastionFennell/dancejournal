@@ -40,7 +40,7 @@ Dance.reopenClass({
     },
     { id: 'waltz', name: 'Waltz', description: 
     "Waltz is the dance of royalty. It's characterized by it's drop and rise look as you travel across the dance floor. It's meant to be a dance of nobles, and should look the part.",
-    moves: ["iw-closed-changes", "iw-chasse-to-whisk", "iw-natural-turn"]
+    moves: ["iw-closed-changes", "iw-whisk-to-chasse", "iw-natural-turn", "iw-reverse-turn", "iw-reverse-turn-outside-partner", "iw-hesitation-change"]
     },
     { id: 'viennese-waltz', name: 'Viennese Waltz', description: 
     "This is a faster, simpler version of waltz. When I say faster, I mean A LOT faster. Like, so fast the whole syllabus only has seven moves in it. It's a lot of fun, and can be danced to a lot of different genres, such as Kiss from a Rose by Seal, and Nothing Else Matters by Metallica.",
