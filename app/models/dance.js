@@ -38,6 +38,10 @@ Dance.reopenClass({
       "Nightclub two step is a nice slow dance, perfect for those slow country songs that regular two step just doesn't really make sense for. It's time signature is slow-quick-quick, so it works on four beats rather than the six beats normal two step uses. It also doesn't travel line of dance, it's danced mostly in place. It's a popular dance to learn for weddings and a great social dance as well.",
       moves: ["nts-basic", "nts-promenade-passes", "nts-promenade-passes-with-ladies-turn"]
     },
+    { id: "triple-two-step", name: "Triple Two Step", description:
+      "Triple two is a 6 count country dance. The steps are triple step, triple step, walk, walk. This gives you 8 weight changes in six beats of music.",
+      moves: ["tt-lady's-flair", "tt-right-turning-loop", "tt-left-turning-loop", "tt-man's-flair", "tt-turning-loops-with-lady's-turns"]
+    },
     { id: 'waltz', name: 'Waltz', description: 
     "Waltz is the dance of royalty. It's characterized by it's drop and rise look as you travel across the dance floor. It's meant to be a dance of nobles, and should look the part.",
     moves: ["iw-closed-changes", "iw-whisk-to-chasse", "iw-natural-turn", "iw-reverse-turn", "iw-reverse-turn-outside-partner", "iw-hesitation-change"]

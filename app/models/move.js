@@ -72,6 +72,13 @@ Move.reopenClass({
     {id: "nts-promenade-passes", name: "promenade passes"},
     {id: "nts-promenade-passes-with-ladies-turn", name: "promenade passes with ladies turn"},
 
+  //triple two step
+    {id: "tt-lady's-flair", name: "lady's flair"},
+    {id: "tt-right-turning-loop", name: "right turning loop"},
+    {id: "tt-left-turning-loop", name: "left turning loop"},
+    {id: "tt-man's-flair", name: "man's flair"},
+    {id: "tt-turning-loops-with-lady's-turns", name: "turning loops with lady's turns"},
+
   //international waltz
     {id: "iw-closed-changes", name: "closed changes"},
     {id: "iw-chasse-to-whisk", name: "chasse to whisk"},
