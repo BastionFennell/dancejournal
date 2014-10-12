@@ -23,6 +23,7 @@ Move.reopenClass({
     {id: "sa-cross-body-lead", name: "cross body lead"},
     {id: "sa-back-spot-turn", name: "back spot turn"},
     {id: "sa-cross-body-lead-with-inside-turn", name: "cross body lead with inside turn"},
+    {id: "sa-back-spot-turn-with-inside-turn", name: "back spot turn with inside turn"},
 
   //jive
     {id: "j-basic", name: "basic"},
@@ -42,6 +43,7 @@ Move.reopenClass({
     {id: "jt-pretzel", name: "pretzel"},
     {id: "jt-she-goes-he-goes", name: "she goes he goes"},
     {id: "jt-dip", name: "dip"},
+    {id: "jt-kick-steps", name: "kick steps"},
 
   //west coast swing
     {id: "wcs-sugar-push", name: "sugar push", video: "KJGrzuTPj2o"},

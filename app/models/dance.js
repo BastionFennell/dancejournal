@@ -15,7 +15,7 @@ Dance.reopenClass({
     },
     { id: 'salsa', name: 'Salsa', description: 
     "Salsa is a slotted latin dance that's mostly done socially. It's danced real close to one another and has a focus on making the dancers feel either masculine or 'sexy'.",
-    moves: ["sa-basic", "sa-underarm-turn", "sa-cross-body-lead", "sa-back-spot-turn", "sa-cross-body-lead-with-inside-turn"]
+    moves: ["sa-basic", "sa-underarm-turn", "sa-cross-body-lead", "sa-back-spot-turn", "sa-cross-body-lead-with-inside-turn", "sa-back-spot-turn-with-inside-turn"]
     },
     { id: 'jive', name: 'Jive', description: 
     "To me, jive feels like it can't decide whether it's swing or latin. It has bits of both. The basic has the same steps as the basic for east coast swing, the only difference is stylistic. It's danced to fast paced music, and mostly has triple steps and rocksteps.",
@@ -23,7 +23,7 @@ Dance.reopenClass({
     },
     { id: 'jitterbug', name: 'Jitterbug', description:
     "Jitterbug is pretty much only a social dance, also called single time swing. It's characterized by it's fast upbeat music and excited movements. It's a circular swing, featuring mostly six count moves.",
-    moves: ["jt-basic", "jt-turning-basic", "jt-underarm-turn", "jt-cuddle", "jt-cuddle-switches", "jt-hammer-lock", "jt-pretzel", "jt-she-goes-he-goes", "jt-dip"]
+    moves: ["jt-basic", "jt-turning-basic", "jt-underarm-turn", "jt-cuddle", "jt-cuddle-switches", "jt-hammer-lock", "jt-pretzel", "jt-she-goes-he-goes", "jt-dip", "jt-kick-steps"]
     },
     { id: 'wcs', name: 'West Coast Swing', description:
       "West coast is one of the more difficult dances. It's a slotted swing that features mostly six count moves. It's one of the more social dances, in fact many competitions are in the form of social dancing(called 'Jack and Jill's). The most unique thing about the dance is how you can add musicality to it and really express the song in ways other dances just can't.",
