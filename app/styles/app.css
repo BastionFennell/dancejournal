@@ -2,16 +2,30 @@
   margin-bottom: 0px;
 }
 
+html {
+  background: radial-gradient( at bottom right, wheat, #992222);
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-height: 100%
+}
+
 body {
-  background-color: wheat;
+  background: transparent;
+  min-height: 100%
 }
 
 .container {
   padding-top: 20px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
+  margin-bottom: 50px;
   background-color: white;
   padding-left: 20px;
   padding-right: 20px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
 }
 
 .row {
