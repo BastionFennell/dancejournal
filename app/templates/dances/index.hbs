@@ -1,9 +1,15 @@
-<div class="row">
-  <h2> General Dancing Tips </h2>
-</div>
-<div class="row">
+<div class="row dance-index">
+  <div class="col-md-2 dance-list">
+    <h3> Dances </h3>
+    {{#each dance in model}}
+      <div>
+        {{#link-to "dances.dance" dance.id}}{{dance.name}}{{/link-to}}
+      </div>
+    {{/each}}
+  </div>
   <div class="col-md-10">
-    <h4>Connection</h4>
+    <h2> General Dancing Tips </h2>
+    <h3>Connection</h3>
     <p>I'm putting connection first because, in my opinion,
     it's the <strong>most</strong> important part of any
     dance, hands down(pun intended). Connection is essentially
@@ -27,7 +33,7 @@
     to interpret what the lead wants. Moral of the story is,
     always try to have a good connection when you're dancing,
     don't just be a pile of noodles.</p>
-    <h4>Frame</h4>
+    <h3>Frame</h3>
     <p>Your frame is the shape your body keeps while you're
     dancing. More specifically, the shape of the upper body and
     arms. Just like connection, a good frame is all about making
@@ -54,7 +60,7 @@
     expected in the dance and whether or not you can relax it
     some. It's alright to use a proper frame when it could be
     relaxed, but the reverse isn't always true.</p>
-    <h4>Keeping the Beat</h4>
+    <h3>Keeping the Beat</h3>
     <p>It's easier to keep the beat for some dances than others,
     but it's more about the songs than anything else. Personally,
     I'm terribly at keeping the beat in salsa. The trick,
@@ -72,7 +78,7 @@
     when you are dancing. So, listen to music, keep dancing, and
     have fun! You'll get the hang of it eventually, it just takes
     practice.</p>
-    <h4>Styling and Technique</h4>
+    <h3>Styling and Technique</h3>
     <p>When you first start off dancing, it can be really
     intimidating to see everyone else out on the dance floor
     looking really fancy and really showing off the character of
@@ -92,13 +98,5 @@
     ignore styling when you're starting off, it's alright to add
     a little flair or cuban motion, just don't do it at the
     expense of technique.</p>
-  </div>
-  <div class="col-md-2">
-    <h4> Dances </h4>
-    {{#each dance in model}}
-      <div>
-        {{#link-to "dances.dance" dance.id}}{{dance.name}}{{/link-to}}
-      </div>
-    {{/each}}
   </div>
 </div>

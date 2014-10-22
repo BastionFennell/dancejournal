@@ -1,31 +1,61 @@
+html {
+  background: hsla(180, 40%, 40%, 1);
+  min-height: 100%
+}
+
+.header {
+  text-align: center;
+  background-color: hsla(0, 60%, 50%, 1);
+  padding-bottom: 20px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  position: relative;
+  z-index: 2;
+}
+
+.header h1 {
+  font-size: 3em;
+  font-family: 'Lobster', cursive;
+  margin-bottom: 15px;
+}
+
+.header a {
+  color: black;
+}
+
+.header a:hover {
+  color: hsla(180, 60%, 50%, 1);
+  transition: color 0.2s ease;
+}
+
+.header .nav span {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
 .navbar {
   margin-bottom: 0px;
 }
 
-html {
-  background: radial-gradient( at bottom right, wheat, #992222);
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  background-repeat: no-repeat;
-  min-height: 100%
-}
-
 body {
   background: transparent;
-  min-height: 100%
+  min-height: 100%;
+  font-size: 16px;
+  line-height: 1.5;
 }
 
-.container {
+.main {
   padding-top: 20px;
   padding-bottom: 50px;
   margin-bottom: 50px;
   background-color: white;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 50px;
+  padding-right: 50px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
+  margin-top: -20px;
+  position: relative;
+  z-index: 1;
 }
 
 .row {
@@ -42,10 +72,35 @@ body {
   text-decoration: none;
 }
 
+p {
+  font-family: serif;
+}
+
 a:hover .title {
   text-decoration: underline;
 }
 
 a {
   text-decoration: none !important;
+}
+
+.dance-index p {
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.dance-list {
+  margin-top: 55px;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer a {
+  color: black;
+}
+
+.footer a:hover {
+  text-decoration: underline !important;
 }
