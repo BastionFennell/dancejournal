@@ -17,6 +17,19 @@ Move.reopenClass({
     {id: "r-fan", name: "fan", dance: "rumba"},
     {id: "r-tuck-turn", name: "tuck turn", dance: "rumba"},
 
+  //cha cha
+    {id: "cc-basic", name: "basic"},
+    {id: "cc-crossover-break", name: "crossover break"},
+    {id: "cc-underarm-turn", name: "underarm turn"},
+
+  //samba
+    {id: "sm-natural-basic", name: "natural basic"},
+    {id: "sm-reverse-basic", name: "reverse basic"},
+    {id: "sm-side-basic", name: "side basic"},
+    {id: "sm-box-basic", name: "box basic"},
+    {id: "sm-turning-box", name: "turning box"},
+    {id: "sm-extended-basic", name: "extended basic"},
+
   //salsa
     {id: "sa-basic", name: "basic"},
     {id: "sa-underarm-turn", name: "underarm turn"},
@@ -101,7 +114,19 @@ Move.reopenClass({
     {id: "it-closed-promenade", name: "closed promenade"},
     {id: "it-progressive-link", name: "progressive link"},
     {id: "it-progressive-side-step", name: "progressive side step"},
-    {id: "it-rock-turn", name: "rock turn"}
+    {id: "it-rock-turn", name: "rock turn"},
+
+  //foxtrot
+    {id: "f-three-step", name: "three step"},
+    {id: "f-feather-step", name: "feather step"},
+    {id: "f-natural-turn", name: "natural turn"},
+
+  //quickstep
+    {id: 'q-forward-lock', name: 'forward lock'},
+    {id: 'q-progressive-chasse', name: 'progressive chasse'},
+    {id: 'q-natural-turn', name: 'natural turn'},
+    {id: 'q-reverse-lock', name: 'reverse lock'}
+
   ]
 });
 

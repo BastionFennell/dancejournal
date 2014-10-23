@@ -1,11 +1,10 @@
 <div class="type">
   <div class="nav">
-    {{#each dance in this}}
+    {{#each dance in this.dances}}
       <span>
         {{#link-to 'dances.type.dance' dance}} {{dance.name}} {{/link-to}}
       </span>
     {{/each}}
   </div>
-
   {{outlet}}
 </div>
