@@ -8,8 +8,10 @@ var Router = Ember.Router.extend({
 Router.map(function() {
   this.resource('dances', {path: "dances/"}, function(){
     this.route('index', {path: "/"});
-    this.route('dance', {path: ":id"}, function(){
-      this.route('move', {path: ":move_id"});
+    this.route('type', {path: ":type"}, function(){
+      this.route('dance', {path: ":id"}, function(){
+        this.route('move', {path: ":move_id"});
+      });
     });
   });
   this.route('links');

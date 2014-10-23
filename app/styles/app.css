@@ -3,6 +3,10 @@ html {
   min-height: 100%
 }
 
+a {
+  color: black;
+}
+
 .header {
   text-align: center;
   background-color: hsla(0, 60%, 50%, 1);
@@ -17,10 +21,6 @@ html {
   font-size: 3em;
   font-family: 'Lobster', cursive;
   margin-bottom: 15px;
-}
-
-.header a {
-  color: black;
 }
 
 .header a:hover {
@@ -44,13 +44,18 @@ body {
   line-height: 1.5;
 }
 
+.content {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
 .main {
-  padding-top: 20px;
+  padding-top: 0px;
   padding-bottom: 50px;
   margin-bottom: 50px;
   background-color: white;
-  padding-left: 50px;
-  padding-right: 50px;
+  padding-left: 0px;
+  padding-right: 0px;
   border-bottom-right-radius: 15px;
   border-bottom-left-radius: 15px;
   margin-top: -20px;
@@ -84,6 +89,67 @@ a {
   text-decoration: none !important;
 }
 
+.dances {
+  padding-top: 20px;
+  margin-top: -20px;
+}
+
+.dances-outlet {
+  background-color: white;
+}
+
+.dances .nav {
+  background-color: hsla(0, 70%, 70%, 1);
+  padding-top: 50px;
+  padding-bottom: 10px;
+  margin-top: -20px;
+  text-align: center;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  position: relative;
+  z-index: 1;
+}
+
+.dances .nav a:hover {
+  color: hsla(180, 40%, 40%, 1);
+  transition: color 0.2s ease;
+}
+
+.dances .nav a.active {
+  color: hsla(180, 40%, 40%, 1);
+}
+
+.dances .nav span {
+  padding: 0 15px;
+  border-right: 1px solid black;
+}
+
+.dances .nav span:last-of-type {
+  border: none;
+}
+
+.dances .type .nav {
+  background-color: hsla(180, 70%, 40%, 1);
+  padding-top: 30px;
+  padding-bottom: 10px;
+  margin-top: -20px;
+  text-align: center;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  z-index: 0;
+}
+
+.dances .type .nav a:hover{
+  color: hsla(0, 50%, 40%, 1);
+  transition: color 0.2s ease;
+}
+
+.dances .type .nav a.active{
+  color: hsla(0, 50%, 40%, 1);
+}
+
+
+
 .dance-index p {
   margin-top: 15px;
   margin-bottom: 20px;
@@ -95,10 +161,6 @@ a {
 
 .footer {
   text-align: center;
-}
-
-.footer a {
-  color: black;
 }
 
 .footer a:hover {

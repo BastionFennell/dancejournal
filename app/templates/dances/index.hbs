@@ -1,9 +1,8 @@
-<div class="row dance-index">
+<div class="row dance-index content">
   <div class="col-md-2 dance-list">
     <h3> Dances </h3>
     {{#each dance in model}}
       <div>
-        {{#link-to "dances.dance" dance.id}}{{dance.name}}{{/link-to}}
       </div>
     {{/each}}
   </div>
