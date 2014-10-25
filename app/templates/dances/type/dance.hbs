@@ -7,13 +7,15 @@
   {{/if}}
 
   <div class="row">
-    <div class="col-md-4">
+    <div class="col-md-12">
       <h3> Moves </h3>
       {{#each move in moves}}
       <div class="move">{{#link-to "dances.type.dance.move" move.id}} {{move.name}} {{/link-to}} </div>
       {{/each}}
     </div>
-    <div class="col-md-8">
+  </div>
+  <div class="row">
+    <div class="col-md-12">
       {{outlet}}
     </div>
   </div>
