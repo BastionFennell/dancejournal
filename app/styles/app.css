@@ -183,6 +183,24 @@ a {
   color: hsla(180, 40%, 30%, 1);
 }
 
+.video {
+  padding: 15px;
+  text-align: center;
+}
+
+.instructions {
+  margin-bottom: 5px;
+}
+
+.instructions .instruction-type {
+  background-color: lightgray;
+  padding: 10px;
+}
+
+.instructions .instruction-type.active {
+  background-color: gray;
+}
+
 tr td {
   padding-right: 10px;
   padding-left: 10px;

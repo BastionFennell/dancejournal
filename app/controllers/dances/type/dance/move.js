@@ -2,7 +2,6 @@ import Ember from 'ember';
 
 export default Ember.ObjectController.extend({
   videoSrc: function(){
-    console.log("AAAAAAH");
     if(this.get("hasVideo")){
       return "//www.youtube.com/embed/" + this.get("model.video");
     }

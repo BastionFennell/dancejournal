@@ -3,7 +3,7 @@ import {
   test
 } from 'ember-qunit';
 
-moduleFor('controller:dances/dance/move', 'DancesDanceMoveController', {
+moduleFor('controller:dances/type/dance/move', 'DancesTypeDanceMoveController', {
   // Specify the other units that are required for this test.
   // needs: ['controller:foo']
 });

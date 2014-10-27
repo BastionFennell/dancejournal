@@ -1,8 +1,37 @@
 <h3>
   {{capitalize-string model.name}}
 </h3>
-<div class="row">
+<div class="row video">
   {{#if hasVideo}}
   <iframe width="80%" height="400" {{bind-attr src=videoSrc}} frameborder="0" allowfullscreen></iframe>
   {{/if}}
+</div>
+<div class="instructions">
+  <h4> Description of the steps for the Lead </h4>
+  <span class="instruction-type active">
+    Lead
+  </span>
+  <span class="instruction-type">
+    Follow
+  </span>
+</div>
+<div class="table-description">
+  <table>
+    <thead>
+      <tr>
+        <td> Beat </td>
+        <td> Description </td>
+        <td> Tips </td>
+      </tr>
+    </td>
+    <tbody>
+      {{#each step in model.leadInstructions}}
+        <tr>
+          <td>{{step.beat}}</td>
+          <td>{{step.description}}</td>
+          <td>{{step.tip}}</td>
+        </tr>
+      {{/each}}
+    </tbody>
+  </table>
 </div>
