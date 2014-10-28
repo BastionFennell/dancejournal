@@ -19,8 +19,9 @@
   <table>
     <thead>
       <tr>
-        <td> Beat </td>
-        <td> Description </td>
+        <td style="width: 8%"> Beat </td>
+        <td style="width:25%"> Footwork </td>
+        <td style="width: 35%"> Lead </td>
         <td> Tips </td>
       </tr>
     </td>
@@ -28,7 +29,8 @@
       {{#each step in model.leadInstructions}}
         <tr>
           <td>{{step.beat}}</td>
-          <td>{{step.description}}</td>
+          <td>{{step.footwork}}</td>
+          <td>{{step.lead}}</td>
           <td>{{step.tip}}</td>
         </tr>
       {{/each}}

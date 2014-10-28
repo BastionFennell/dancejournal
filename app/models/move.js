@@ -62,116 +62,116 @@ Move.reopenClass({
   //west coast swing
     {id: "wcs-sugar-push", name: "sugar push", video: "KJGrzuTPj2o",
       leadInstructions: [
-      {beat: "1", description: "Step back on your left foot", tip: ""},
-      {beat: "2", description: "Step back on your right foot", tip: "You can start taking a double handhold here"},
-      {beat: "3 and 4", description: "Triple in place, finishing with your left foot forward", tip: "Extend your hands forward shortly before you step forward to lead the follow back down the slot"},
-      {beat: "5 and 6", description: "Anchor in place", tip: ""}
+      {beat: "1", footwork: "Step back on your left foot", lead: "Bring whichever hand/hands you're leading with towards you.", tip: ""},
+      {beat: "2", footwork: "Step back on your right foot", lead: "Continue bringing your hands towards you, you can start taking a double handhold here", tip: ""},
+      {beat: "3 and 4", footwork: "Triple in place, finishing with your left foot forward", lead: "Lead the follow into you, compress, then back down the slot. You should have a good compression connection here, it should feel like a spring being compressed, then extending.", tip: "Make sure to extend your hands forward shortly before you step forward, so you don't run into the follow"},
+      {beat: "5 and 6", footwork: "Anchor in place", lead: "Settle into the anchor.", tip: "You can end this with a left to right, right to left, or double hand hold, depending on which hand/hands you keep after the compression"}
       ]
     },
 
     {id: "wcs-left-side-pass", name: "left side pass", video: "k7D6Uv8Y0E8",
       leadInstructions: [
-      {beat: "1", description: "Step back on your left foot", tip: ""},
-      {beat: "2", description: "Step back and to the right with your right foot", tip: "Make sure you step off the slot here"},
-      {beat: "3 and 4", description: "Triple back, together, then forward. First collect your left foot to your right, facing the slot. Then step in place on your right foot. Finally, step back onto the slot with your left foot", tip: "Make sure the follow has gotten past you before you step back onto the slot"},
-      {beat: "5 and 6", description: "Anchor in place", tip: ""}
+      {beat: "1", footwork: "Step back on your left foot", lead: "Bring the follow towards you, down the slot", tip: ""},
+      {beat: "2", footwork: "Step back and to the right with your right foot", lead: "Continue to lead your follow down the slot", tip: "Make sure you step off the slot here"},
+      {beat: "3 and 4", footwork: "Triple back, together, then forward. First collect your left foot to your right, facing the slot. Then step in place on your right foot. Finally, step back onto the slot with your left foot", lead: "As the follow steps past you, rotate them to face down the slot towards you for the anchor step.", tip: "Make sure the follow has gotten past you before you step back onto the slot"},
+      {beat: "5 and 6", footwork: "Anchor in place", lead: "Settle into the anchor", tip: ""}
       ]
     },
 
     {id: "wcs-underarm-turn", name: "underarm turn", video: "bSu7QJZ5SLU",
       leadInstructions: [
-      {beat: "1", description: "Step back and to the left with your left foot", tip: "Make sure that you're getting off the slot with your left foot"},
-      {beat: "2", description: "Collect your right foot to your left foot", tip: "Again, make sure you're off the slot. At this point, you should be facing the slot"},
-      {beat: "3 and 4", description: "Triple in place, finishing with your left foot on the slot", tip: ""},
-      {beat: "5 and 6", description: "Anchor in place", tip: "You should be on the slot, facing your partner during the anchor"}
+      {beat: "1", footwork: "Step back and to the left with your left foot", lead: "Lead the follow towards you, down the slot.", tip: "Make sure that you're getting off the slot with your left foot"},
+      {beat: "2", footwork: "Collect your right foot to your left foot", lead: "Bring your left hand up and rotate it in the follows hand. This is sometime referred to as 'checking the time', like you have a watch on your wrist.", tip: "Again, make sure you're off the slot. At this point, you should be facing the slot"},
+      {beat: "3 and 4", footwork: "Triple in place, finishing with your left foot on the slot", lead: "You shouldn't need to help the follow rotate much here.", tip: "Make sure you don't crank your arm to force the follow to rotate, that doesn't feel good for anyone."},
+      {beat: "5 and 6", footwork: "Anchor in place", lead: "Settle into the anchor", tip: "You should be on the slot, facing your partner during the anchor"}
       ]
     },
     {id: "wcs-spinning-left-side-pass", name: "spinning left side pass",
       leadInstructions: [
-      {beat: "1", description: "Step back on your left foot", tip: ""},
-      {beat: "2", description: "Step back and to the right with your right foot", tip: "Make sure you step off the slot here"},
-      {beat: "3 and 4", description: "Triple back, together, then forward. First collect your left foot to your right, facing the slot. Then step in place on your right foot. Finally, step back onto the slot with your left foot", tip: "Make sure the follow has gotten past you before you step back onto the slot"},
-      {beat: "5 and 6", description: "Anchor in place", tip: ""}
+      {beat: "1", footwork: "Step back on your left foot", lead: "Lead the follow towards you, down the slot", tip: ""},
+      {beat: "2", footwork: "Step back and to the right with your right foot", lead: "Bring your hand to the left as a prep, and to change the connection to a rotational one.", tip: "Make sure you step off the slot here"},
+      {beat: "3 and 4", footwork: "Triple back, together, then forward. First collect your left foot to your right, facing the slot. Then step in place on your right foot. Finally, step back onto the slot with your left foot", lead: "Bring your hand above and around the follows head so they spins as they moves down the slot.", tip: "Make sure the follow has gotten past you before you step back onto the slot"},
+      {beat: "5 and 6", footwork: "Anchor in place", lead: "settle into the anchor.", tip: ""}
       ]
     },
     {id: "wcs-sugar-tuck", name: "sugar tuck",
       leadInstructions: [
-      {beat: "1", description: "Step back on your left foot", tip: ""},
-      {beat: "2", description: "Step back on your right foot", tip: "Don't raise your hand too early, you want to start raising it on or right before the three"},
-      {beat: "3 and 4", description: "Triple in place, finishing with your left foot forward", tip: "The connection should feel 'springy', just like a sugar push."},
-      {beat: "5 and 6", description: "Anchor in place", tip: "You'll probably have a strange handhold here, you can fix that with an underarm turn"}
+      {beat: "1", footwork: "Step back on your left foot", lead: "Lead the follow towards you, down the slot.", tip: ""},
+      {beat: "2", footwork: "Step back on your right foot", lead: "Bring your hand up and change it to be palm to palm with your follow.", tip: "Don't raise your hand too early, you want to start raising it on '2 and' rather than right on the two"},
+      {beat: "3 and 4", footwork: "Triple in place, finishing with your left foot forward", lead: "Compress, then push forward on the '3 and', sending your follow back down the slot and initiating the tuck turn.", tip: "The connection should feel 'springy', just like a sugar push."},
+      {beat: "5 and 6", footwork: "Anchor in place", lead: "settle into the anchor",  tip: "You'll probably have a strange handhold here, you can fix that with an underarm turn"}
       ]
     },
 
     {id: "wcs-closed-whip", name: "closed whip", 
       leadInstructions: [
-      {beat: "1", description: "Step back and to the left with your left foot", tip: "Make sure to get off the slot, just like an underarm turn"},
-      {beat: "2", description: "Collect your right foot to your left foot off the slot", tip: "Make sure you don't raise your left hand and accidentally give a false lead. Here, you should be catching the follow with your right arm to bring them into closed"},
-      {beat: "3 and 4", description: "Triple together, together, forward", tip: "The last step should be all the way accross the slot, with you facing the follow down the slot"},
-      {beat: "5", description: "Bring your right foot to your left off the slot", tip: ""},
-      {beat: "6", description: "Step back onto the slot with your left foot", tip: ""},
-      {beat: "7 and 8", description: "Anchor in place", tip: ""}
+      {beat: "1", footwork: "Step back and to the left with your left foot", lead: "Lead the follow towards you, down the slot.", tip: "Make sure to get off the slot, just like an underarm turn"},
+      {beat: "2", footwork: "Collect your right foot to your left foot off the slot", lead: "Move your left hand in a small clockwis circle as you pull the follow towards you, catching them with your right arm and bringing them into closed.", tip: "Make sure you don't raise your left hand and accidentally give a false lead."},
+      {beat: "3 and 4", footwork: "Triple together, together, forward", lead: "The follow should be sinking into your right hand during the '3 and'. On the 4, lead them forward towards you as you cross the slot. This should also be led with your right hand, not your left.",  tip: "The last step should be all the way accross the slot, with you facing the follow down the slot"},
+      {beat: "5", footwork: "Bring your right foot to your left off the slot", lead: "Continue the momentum from 3 and 4, just keep the follow moving down the slot.", tip: ""},
+      {beat: "6", footwork: "Step back onto the slot with your left foot", lead: "You can let go with your right hand here, or keep it there if you want to move into closed.", tip: ""},
+      {beat: "7 and 8", footwork: "Anchor in place", lead: "settle into the anchor", tip: ""}
       ]
     },
 
     {id: "wcs-basket-whip", name: "basket whip",
       leadInstructions: [
-      {beat: "1", description: "Step back and to the left with your left foot", tip: "Make sure you have a double hand hold before starting this whip"},
-      {beat: "2", description: "Collect your right foot to your left foot off the slot", tip: "You should raise your left hand, just like an underarm turn, but keep ahold with your right."},
-      {beat: "3 and 4", description: "Triple across the slot", tip: "You want to triple across the slot, as opposed to in place like a regular whip, to make sure you're out of the follows way before she starts travelling backwards"},
-      {beat: "5", description: "Bring your right foot to your left off the slot", tip: "You can let go or start letting go with the right hand here"},
-      {beat: "6", description: "Step back onto the slot with your left foot", tip: ""},
-      {beat: "7 and 8", description: "Anchor in place", tip: ""}
+      {beat: "1", footwork: "Step back and to the left with your left foot", lead: "Starting with a double hand hold, move the follow towards you, down the slot.", tip: ""},
+      {beat: "2", footwork: "Collect your right foot to your left foot off the slot", lead: "Raise your left hand, like for an underarm turn, but keep ahold with your right hand.", tip: ""},
+      {beat: "3 and 4", footwork: "Triple across the slot", lead: "The follow will sink into the connection during '3 and', just like with a basic whip. Bring them back on the 4", tip: "You want to triple across the slot, as opposed to in place like a regular whip, to make sure you're out of the follows way before she starts travelling backwards"},
+      {beat: "5", footwork: "Bring your right foot to your left off the slot", lead: "You can start letting go with your right hand here.", tip: ""},
+      {beat: "6", footwork: "Step back onto the slot with your left foot", lead: "Make sure you're in left to right by the time you step back onto the slot.", tip: ""},
+      {beat: "7 and 8", footwork: "Anchor in place", lead: "settle into the anchor", tip: ""}
       ]
     },
 
     {id: "wcs-closed-whip-with-turn", name: "closed whip with inside or outside turn",
       leadInstructions: [
-      {beat: "1", description: "Step back and to the left with your left foot", tip: "This is the same as a whip until the end"},
-      {beat: "2", description: "Collect your right foot to your left foot off the slot", tip: ""},
-      {beat: "3 and 4", description: "Triple together, together, forward", tip: "If you want to do an underarm turn, bring your left hand up in front of the follow here. If you want to do on outside turn, raise your left hand up away from your follow"},
-      {beat: "5", description: "Bring your right foot to your left off the slot", tip: ""},
-      {beat: "6", description: "Step back onto the slot with your left foot", tip: ""},
-      {beat: "7 and 8", description: "Anchor in place", tip: ""}
+      {beat: "1", footwork: "Step back and to the left with your left foot", lead: "Lead the follow towards you, down the slot.", tip: "This is the same as a whip until the end"},
+      {beat: "2", footwork: "Collect your right foot to your left foot off the slot", lead: "Move your left hand in a small clockwis circle as you pull the follow towards you, catching them with your right arm and bringing them into closed.", tip: ""},
+      {beat: "3 and 4", footwork: "Triple together, together, forward", lead: "The follow will sink into your right hand during '3 and'. Bring them forward during 4. If you want to do an inside turn, bring your left hand forward in front of them. If you want to do an outside turn, lift your left hand up and keep it on that side of your partner.", tip: ""},
+      {beat: "5", footwork: "Bring your right foot to your left off the slot", lead: "You should start the turn here, letting go with your right hand.", tip: ""},
+      {beat: "6", footwork: "Step back onto the slot with your left foot", lead: "Finish the turn before the anchor and face your partner", tip: ""},
+      {beat: "7 and 8", footwork: "Anchor in place", lead: "settle into your anchor", tip: ""}
       ]
     },
 
     {id: "wcs-eight-count-sugar-push", name: "eight count sugar push",
       leadInstructions: [
-      {beat: "1", description: "Step back on your left foot", tip: ""},
-      {beat: "2", description: "Step back on your right foot", tip: ""},
-      {beat: "3 and 4", description: "Triple in place, finishing with your left foot forward", tip: ""},
-      {beat: "5", description: "Step forward with your right foot", tip: "This move is kind of weird, make sure you give a strong lead that you want to keep going"},
-      {beat: "6", description: "Step forward with your left foot", tip: "Start giving some tension in your connection here to tell the follow that you're done moving forward now"},
-      {beat: "7 and 8", description: "Anchor in place", tip: ""}
+      {beat: "1", footwork: "Step back on your left foot", lead: "Bring whichever hand/hands you're leading with towards you.", tip: ""},
+      {beat: "2", footwork: "Step back on your right foot", lead: "Continue bringing your hands towards you, you can start taking a double handhold here", tip: ""},
+      {beat: "3 and 4", footwork: "Triple in place, finishing with your left foot forward", lead: "Lead the follow into you, compress, then back down the slot. You should have a good compression connection here, it should feel like a spring being compressed, then extending.", tip: ""},
+      {beat: "5", footwork: "Step forward with your right foot", lead: "Continue to push the follower backwards down the slot.", tip: "This move is kind of weird, make sure you give a strong lead that you want to keep going"},
+      {beat: "6", footwork: "Step forward with your left foot", lead: "Again, keep the follow moving down the slot", tip: "Start giving some tension in your connection here to tell the follow that you're done moving forward now"},
+      {beat: "7 and 8", footwork: "Anchor in place", lead: "settle into the anchor", tip: ""}
       ]
     },
 
     {id: "wcs-left-side-tuck-turn", name: "left side tuck turn",
       leadInstructions: [
-      {beat: "1", description: "Step back on your left foot", tip: ""},
-      {beat: "2", description: "Step back on your right foot", tip: "You can start taking a double handhold here"},
-      {beat: "3 and 4", description: "Triple in place, finishing with your left foot forward", tip: "Extend your hands forward shortly before you step forward to lead the follow back down the slot"},
-      {beat: "5 and 6", description: "Anchor in place", tip: ""}
+      {beat: "1", footwork: "Step back on your left foot", lead: "Lead the follow forward, down the slot.", tip: "This move has a similar lead to a spinning left side pass. To make the lead a bit stronger, do it with a two hand hold."},
+      {beat: "2", footwork: "Step back and to the right with your right foot", lead: "Move your left hand to the left, prepping for the tuck and initiating a rotational connection.", tip: ""},
+      {beat: "3 and 4", footwork: "Triple back, together, then forward. First collect your left foot to your right, facing the slot. Then step in place on your right foot. Finally, step back onto the slot with your left foot", lead: "Bring your hand up during the three and switch it to be palm to palm with the follow. Compress during the 'and', then send them out for the 4.", tip: "definitely make sure the follow has gotten past you before you step back onto the slot. You may end up tripling in place here, which is fine. Just get back onto the slot at the beginning of your anchor"},
+      {beat: "5 and 6", footwork: "Anchor in place", lead: "Settle into the anchor", tip: ""}
       ]
     },
 
     {id: "wcs-left-side-free-spin", name: "left side free spin",
       leadInstructions: [
-      {beat: "1", description: "Step back on your left foot", tip: "This move has a similar lead to a spinning left side pass. To make the lead a bit stronger, do it with a two hand hold."},
-      {beat: "2", description: "Step back and to the right with your right foot", tip: ""},
-      {beat: "3 and 4", description: "Triple back, together, then forward. First collect your left foot to your right, facing the slot. Then step in place on your right foot. Finally, step back onto the slot with your left foot", tip: "definitely make sure the follow has gotten past you before you step back onto the slot. You may end up tripling in place here, which is fine. Just get back onto the slot at the beginning of your anchor"},
-      {beat: "5 and 6", description: "Anchor in place", tip: ""}
+      {beat: "1", footwork: "Step back on your left foot", lead: "Lead the follow forward, down the slot", tip: "This move has a similar lead to a spinning left side pass."},
+      {beat: "2", footwork: "Step back and to the right with your right foot", lead: "Move your hand to the left to prep for the spin and inituate a rotational connection.", tip: ""},
+      {beat: "3 and 4", footwork: "Triple back, together, then forward. First collect your left foot to your right, facing the slot. Then step in place on your right foot. Finally, step back onto the slot with your left foot", lead: "During the 3, turn your follow with a bit more force than you usually do for a spin. Keep your hand from raising or lowering, as those are leads for other moves. Let go of the follow completele during the 'and'", tip: "For styling, you can also spin here. It would be a clockwise spin, carrying through the momentum from sending out the follow."},
+      {beat: "5 and 6", footwork: "Anchor in place", lead: "Pick up one of the follow's hands, then anchor in place.", tip: ""}
       ]
     },
 
     {id: "wcs-sweetheart-swivels", name: "sweetheart swivels",
       leadInstructions: [
-      {beat: "1", description: "Step back on your left foot", tip: "Start this move with a right to right hand hold. The lead is similar to a spinning left side pass"},
-      {beat: "2", description: "Step back and to the right with your right foot", tip: ""},
-      {beat: "3 and 4", description: "Triple in place.", tip: "Don't let the follow spin all the way around, keep your hand low and stop them with your arm when they're facing down the slot again. You can take their left hand with your left at that point."},
-      {beat: "5 and 6, 7 and 8, etc.", description: "Alternate lunging to the left and to the right", tip: "Make sure you correctly lead the follow up and down the slot for the swivels, it's easy to get them off balance and off beat here."},
-      {beat: "exit", description: "When the follow is going to the left, drop your left hand (with their left). Instead of turning them back towards the slot, push up with your left hand and give them a free spin to exit.", tip: ""}
+      {beat: "1", footwork: "Step back on your left foot", lead: "Start with a right to right hand hold. Move your follow towards you, down the slot.", tip: "The lead is similar to a spinning left side pass"},
+      {beat: "2", footwork: "Step back and to the right with your right foot", lead: "Move your hand to the left to prep for the turn and initiate a rotational connection", tip: ""},
+      {beat: "3 and 4", footwork: "Triple in place.", lead: "Rotate the follow 180 degrees counter clockwise. Stop them with your right arm on their shoulder and pick up their left hand with yours.", tip: "Keep your hand low, so you don't give a false lead for a turn. Rather than tripling in place, you can take two steps in place, then lunge to the left to prepare for the rest of the pattern."},
+      {beat: "5 and 6, 7 and 8, etc.", footwork: "Alternate lunging to the left and to the right", lead: "Press with your hand to turn the follow towards you, and let up on the tension to lead them forward.", tip: "Make sure you correctly lead the follow up and down the slot for the swivels, it's easy to get them off balance and off beat here."},
+      {beat: "exit", footwork: "Check back with your right foot. Then, triple back onto the slot starting with your left, and finish with an anchor.", lead: "When the follow is going to the left, drop your left hand (with their left). Instead of turning them back towards the slot, push up with your left hand and give them a free spin to exit.", tip: ""}
       ]
     },
 
