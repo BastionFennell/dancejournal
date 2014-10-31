@@ -29,7 +29,7 @@ moveType.reopenClass({
       dance: "jive"
     },
     { id: "sa-beginner",
-      name: "salsa",
+      name: "beginner",
       moves: ["sa-basic", "sa-underarm-turn", "sa-cross-body-lead", "sa-back-spot-turn", "sa-cross-body-lead-with-inside-turn", "sa-back-spot-turn-with-inside-turn"],
       dance: "salsa"
     },
