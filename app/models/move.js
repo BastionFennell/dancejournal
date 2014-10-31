@@ -11,7 +11,9 @@ var Move = DS.Model.extend({
 Move.reopenClass({
   FIXTURES:[
   //rumba
-    {id: "r-basic", name: "basic", dance: "rumba"},
+    {id: "r-basic", name: "basic", dance: "rumba",
+    leadInstructions: []
+    },
     {id: "r-crossover-break", name: "crossover break", dance: "rumba"},
     {id: "r-hand-to-hand", name: "hand to hand", dance: "rumba"},
     {id: "r-side-by-side", name: "side by side", dance: "rumba"},
@@ -208,8 +210,9 @@ Move.reopenClass({
     {id: "vw-closed-changes", name: "closed changes"},
     {id: "vw-natural-turn", name: "natural turn"},
     {id: "vw-reverse-turn", name: "reverse turn"},
-    {id: "vw-fleckerl", name: "fleckerl"},
     {id: "vw-reverse-fleckerl", name: "reverse fleckerl"},
+    {id: "vw-fleckerl", name: "fleckerl"},
+    {id: "vw-contra-check", name: "contra check"},
 
   //international tango
     {id: "it-basic-walks", name: "basic walks"},

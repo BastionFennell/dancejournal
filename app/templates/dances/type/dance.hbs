@@ -6,11 +6,23 @@
   <p>{{notes}}</p>
   {{/if}}
 
-  <div class="row">
+  <div class="row moveTypes">
     <div class="col-md-12">
       <h3> Moves </h3>
-      {{#each move in moves}}
-      <div class="move">{{#link-to "dances.type.dance.move" move.id}} {{move.name}} {{/link-to}} </div>
+      {{#each moveType in moveTypes}}
+      <div class="col-md-3">
+        <div class="dropdown">
+          <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+            {{moveType.name}}
+            <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+            {{#each move in moveType.moves}}
+            <li role="presentation">{{#link-to "dances.type.dance.move" move.id}}{{move.name}}{{/link-to}}</li>
+            {{/each}}
+          </ul>
+        </div>
+      </div>
       {{/each}}
     </div>
   </div>

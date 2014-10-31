@@ -188,6 +188,10 @@ a {
   text-align: center;
 }
 
+.moveTypes {
+  height: 150px;
+}
+
 .instructions {
   margin-bottom: 5px;
 }
